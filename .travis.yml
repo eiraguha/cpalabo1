@@ -1,6 +1,6 @@
-language:php
+language: php
 php:
     - '7.3'
 Script: "tests/build.sh"
 before_install:
-    -chmod +x tests/build.sh
+    - chmod +x tests/build.sh
